@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Valery Lyubchuk](https://up.htmlacademy.ru/htmlcss/23/user/869895).
-* Наставник: [Виктория Касаковская] (https://htmlacademy.ru/profile/id238370).
+* Наставник: [Виктория Касаковская](https://htmlacademy.ru/profile/id238370).
 
 ---
 
