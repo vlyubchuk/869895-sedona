@@ -84,21 +84,42 @@
         <p>Укажите предполагаемые даты поездки,<br>
           и мы покажем вам лучшие предложения гостиниц в Седоне.</p>
       </section>
-      <section>
+      <form>
         <h2>Поиск гостиницы в Седоне</h2>
-      </section>
+        <div>
+          <label for="date-in">Дата заезда:</label>
+            <input type="text" name="date-in" id="date-in" value="24 апреля 2017">
+        </div>
+        <div>
+          <label for="date-out">Дата выезда:</label> 
+            <input type="text" name="date-out" id="date-out" value="4 июля 2017">
+        </div>
+        <div>
+          <label for="adult">Взрослые:</label>    
+            <button>-</button>
+            <button>2</button>
+            <!-- <input type="text" name="number" id="number" value="2"> -->
+            <button>+</button>
+          <label for="children">Дети:</label>
+            <button>-</button>
+            <button>0</button>
+            <!-- <input type="text" name="number" id="number" value="2"> -->
+            <button>+</button>
+        </div>
+        <div><button type="submit" name="search">Найти</button></div>
+      </form>
       
 
       <footer>
         <div>#visitsedona</div>
         <div>
           <ul>
-            <li><a href="twitter.com"><img src="http://placehold.it" alt="twitter" widht="46" height="48"></a></li>
-            <li><a href="facebook.com"><img src="http://placehold.it" alt="facebook" widht="46" height="48"></a></li>
-            <li><a href="youtube.com"><img src="http://placehold.it" alt="youtube" widht="46" height="48"></a></li>
+            <li><a href="twitter.com"><img src="img/twitter.svg" alt="twitter" width="46" height="48"></a></li>
+            <li><a href="facebook.com"><img src="img/fb-icon.svg" alt="facebook" width="46" height="48"></a></li>
+            <li><a href="youtube.com"><img src="img/youtube.svg" alt="youtube" width="46" height="48"></a></li>
           </ul>
         </div>
-        <div><a href="https://htmlacademy.ru/intensive/htmlcss">website.by<img src="http://placehold.it" alt="" widht="115" height="41"></a></div>
+        <div><a href="https://htmlacademy.ru/intensive/htmlcss">website.by<img src="img/logo-htmlacademy.svg" alt="Логотип htmlacademy" widht="115" height="41"></a></div>
       </footer>
     </main>
 
